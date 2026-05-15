@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apex Advisory — Financial & Strategic Consulting</title>
+  <meta name="description" content="Financial and strategic advisory for companies seeking to grow with clarity and precision." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">Apex<span>Advisory</span></a>
+      <nav class="nav__links">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#cases">Success Stories</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#contact" class="btn btn--outline nav__cta">Schedule a call</a>
+      <button class="nav__burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="#services" class="mobile-link">Services</a>
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#cases" class="mobile-link">Success Stories</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg-lines" aria-hidden="true">
+      <div class="line line--1"></div>
+      <div class="line line--2"></div>
+      <div class="line line--3"></div>
+    </div>
+    <div class="container">
+      <div class="hero__content">
+        <p class="hero__eyebrow reveal">Financial &amp; Strategic Advisory</p>
+        <h1 class="hero__title reveal reveal--delay-1">
+          Strategic clarity <em>for decisions</em> that matter.
+        </h1>
+        <p class="hero__sub reveal reveal--delay-2">
+          We help leaders and companies make financial and strategic decisions with precise information, global perspective, and flawless execution.
+        </p>
+        <div class="hero__actions reveal reveal--delay-3">
+          <a href="#contact" class="btn btn--dark">Let's talk about your project</a>
+          <a href="#services" class="btn btn--ghost">View services →</a>
+        </div>
+      </div>
+      <div class="hero__stat-row reveal reveal--delay-4">
+        <div class="stat">
+          <span class="stat__num">120+</span>
+          <span class="stat__label">Projects delivered</span>
+        </div>
+        <div class="stat__divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat__num">15</span>
+          <span class="stat__label">Years of experience</span>
+        </div>
+        <div class="stat__divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat__num">$2.4B</span>
+          <span class="stat__label">In value advised</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section__header reveal">
+        <p class="section__eyebrow">What we do</p>
+        <h2 class="section__title">Advisory services</h2>
+        <p class="section__sub">Tailored solutions for the most complex financial and strategic challenges.</p>
+      </div>
+      <div class="services__grid">
+
+        <div class="service-card reveal">
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+          </div>
+          <h3 class="service-card__title">Financial Planning</h3>
+          <p class="service-card__desc">Robust financial models, cash flow projections and capital structuring for sustainable growth.</p>
+          <ul class="service-card__list">
+            <li>Valuation models &amp; projections</li>
+            <li>Debt &amp; capital management</li>
+            <li>Profitability analysis</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal reveal--delay-1">
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/></svg>
+          </div>
+          <h3 class="service-card__title">Corporate Strategy</h3>
+          <p class="service-card__desc">Diagnosis, design and implementation of business strategies aligned with the market and long-term objectives.</p>
+          <ul class="service-card__list">
+            <li>Competitive &amp; market analysis</li>
+            <li>Expansion strategies</li>
+            <li>Organizational transformation</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal reveal--delay-2">
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+          </div>
+          <h3 class="service-card__title">Due Diligence &amp; M&A</h3>
+          <p class="service-card__desc">Full support in mergers, acquisitions and divestitures with rigorous analysis and risk management.</p>
+          <ul class="service-card__list">
+            <li>Financial &amp; operational due diligence</li>
+            <li>Transaction structuring</li>
+            <li>Post-merger integration</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal reveal--delay-3">
+          <div class="service-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          </div>
+          <h3 class="service-card__title">Investments &amp; Portfolios</h3>
+          <p class="service-card__desc">Advisory on portfolio structuring and management with a focus on risk-adjusted performance.</p>
+          <ul class="service-card__list">
+            <li>Asset allocation strategy</li>
+            <li>Alternative assets evaluation</li>
+            <li>Reporting &amp; governance</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container about__inner">
+      <div class="about__text reveal">
+        <p class="section__eyebrow">Who we are</p>
+        <h2 class="section__title">A team with experience where it counts</h2>
+        <p class="about__para">At Apex Advisory we bring together decades of experience in investment banking, corporate finance and business strategy. We work with mid and large-cap companies, family offices and investment funds across Latin America and global markets.</p>
+        <p class="about__para">We believe that world-class advisory combines rigorous analysis with a deep understanding of each client's human and organizational context.</p>
+        <div class="about__values">
+          <div class="value-item">
+            <span class="value-item__num">01</span>
+            <div>
+              <strong>Analytical rigor</strong>
+              <p>Every recommendation is backed by solid data and models.</p>
+            </div>
+          </div>
+          <div class="value-item">
+            <span class="value-item__num">02</span>
+            <div>
+              <strong>Independence</strong>
+              <p>No conflicts of interest. Your best outcome is our only agenda.</p>
+            </div>
+          </div>
+          <div class="value-item">
+            <span class="value-item__num">03</span>
+            <div>
+              <strong>Real execution</strong>
+              <p>Not just strategy on paper — we support the full implementation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about__visual reveal reveal--delay-2">
+        <div class="about__card-main">
+          <p class="about__card-label">Founder &amp; Managing Director</p>
+          <h3 class="about__card-name">Carlos Méndez</h3>
+          <p class="about__card-bio">MBA, Harvard Business School. 20 years in international investment banking and corporate finance. Former Director at Goldman Sachs LATAM and CFO at a regional industrial group.</p>
+          <div class="about__card-tags">
+            <span>Corporate Finance</span>
+            <span>M&amp;A</span>
+            <span>Strategy</span>
+          </div>
+        </div>
+        <div class="about__card-secondary">
+          <p class="about__card-label">Partner — Strategy</p>
+          <h3 class="about__card-name--sm">Ana Rivas</h3>
+          <p class="about__card-bio--sm">15 years in strategic consulting. Specialist in digital transformation and international expansion.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUCCESS STORIES -->
+  <section class="section cases" id="cases">
+    <div class="container">
+      <div class="section__header reveal">
+        <p class="section__eyebrow">Results</p>
+        <h2 class="section__title">Success stories</h2>
+        <p class="section__sub">Measurable impact for organizations that chose to act with clarity.</p>
+      </div>
+      <div class="cases__grid">
+
+        <div class="case-card reveal">
+          <div class="case-card__industry">Manufacturing</div>
+          <blockquote class="case-card__quote">
+            "Apex Advisory helped us identify an acquisition opportunity that completely transformed our market position. The process was rigorous, agile and transparent."
+          </blockquote>
+          <div class="case-card__author">
+            <div class="case-card__avatar">MR</div>
+            <div>
+              <strong>Marcos Ruiz</strong>
+              <span>CEO, Grupo Industrial del Norte</span>
+            </div>
+          </div>
+          <div class="case-card__metric">
+            <span class="metric-num">+38%</span>
+            <span class="metric-label">EBITDA growth post-merger</span>
+          </div>
+        </div>
+
+        <div class="case-card reveal reveal--delay-1">
+          <div class="case-card__industry">Technology &amp; SaaS</div>
+          <blockquote class="case-card__quote">
+            "They built our growth model and prepared us for a successful Series B round. An indispensable partner for any ambitious founder."
+          </blockquote>
+          <div class="case-card__author">
+            <div class="case-card__avatar">SL</div>
+            <div>
+              <strong>Sofía López</strong>
+              <span>Co-Founder, Fintech Startup</span>
+            </div>
+          </div>
+          <div class="case-card__metric">
+            <span class="metric-num">$12M</span>
+            <span class="metric-label">Raised in Series B</span>
+          </div>
+        </div>
+
+        <div class="case-card reveal reveal--delay-2">
+          <div class="case-card__industry">Real Estate</div>
+          <blockquote class="case-card__quote">
+            "The portfolio restructuring under their advisory significantly reduced our risk exposure and improved our risk-adjusted return."
+          </blockquote>
+          <div class="case-card__author">
+            <div class="case-card__avatar">JV</div>
+            <div>
+              <strong>Jorge Valdés</strong>
+              <span>Director, Regional Family Office</span>
+            </div>
+          </div>
+          <div class="case-card__metric">
+            <span class="metric-num">-22%</span>
+            <span class="metric-label">Portfolio risk reduction</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container contact__inner">
+      <div class="contact__text reveal">
+        <p class="section__eyebrow">Let's get started</p>
+        <h2 class="section__title">Ready to make better decisions?</h2>
+        <p class="contact__sub">Schedule a free introductory call. We'll listen to your situation and honestly tell you whether and how we can help.</p>
+        <div class="contact__info">
+          <div class="contact__info-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11.5a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .84h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 8a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+            <span>+1 (555) 000-0000</span>
+          </div>
+          <div class="contact__info-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>hello@apexadvisory.com</span>
+          </div>
+          <div class="contact__info-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Mexico City · Buenos Aires · Miami</span>
+          </div>
+        </div>
+      </div>
+      <div class="contact__form-wrap reveal reveal--delay-1">
+        <form class="contact__form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nombre">Full name</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Carlos García" required />
+            </div>
+            <div class="form-group">
+              <label for="empresa">Company</label>
+              <input type="text" id="empresa" name="empresa" placeholder="Your company name" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="carlos@company.com" required />
+          </div>
+          <div class="form-group">
+            <label for="servicio">Area of interest</label>
+            <select id="servicio" name="servicio">
+              <option value="">Select a service...</option>
+              <option value="financial">Financial Planning</option>
+              <option value="strategy">Corporate Strategy</option>
+              <option value="ma">Due Diligence / M&amp;A</option>
+              <option value="investments">Investments &amp; Portfolios</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">What is your main challenge?</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Tell us briefly about your situation..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--dark btn--full">Send message →</button>
+          <p class="form__note">We respond within 24 business hours.</p>
+        </form>
+        <div class="form__success" id="formSuccess">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          <h3>Message sent!</h3>
+          <p>We'll be in touch with you shortly.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="nav__logo">Apex<span>Advisory</span></span>
+        <p>High-impact financial and strategic advisory.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Services</h4>
+        <a href="#services">Financial Planning</a>
+        <a href="#services">Corporate Strategy</a>
+        <a href="#services">Due Diligence &amp; M&A</a>
+        <a href="#services">Investments</a>
+      </div>
+      <div class="footer__links">
+        <h4>Company</h4>
+        <a href="#about">About</a>
+        <a href="#cases">Success Stories</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2024 Apex Advisory. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
